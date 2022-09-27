@@ -1,0 +1,73 @@
+html, body {
+    width: 100%;
+    margin: 0;
+}
+
+h1 {
+    margin: auto 24px;
+}
+
+.flex {
+    display: flex;
+}
+
+header {
+    
+    background-color: #F5F5F5;
+}
+
+footer {
+    background-color: #05274B;
+}
+
+main {
+    background-color: lightblue;
+}
+
+.logo {
+    margin-left: 28px;
+    margin-top: 18px;
+    margin-bottom: 18px;
+    height: 142px;
+}
+
+.login {
+    margin: auto;
+    margin-right: 180px;
+    text-decoration: none;
+}
+
+.content {
+    margin-top: 110px;
+    margin-bottom: 100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.contetnWhite {
+    background-color: #F5F5F5;
+    padding: 100px 80px;
+}
+
+.registrationInput {
+    width: 414px;
+}
+
+.contentBlue {
+    color: white;
+    background-color: #4C5CED;
+    padding: 250px 160px;
+}
+
+.loginText {
+    font-size: 30px;
+}
+
+.column {
+    flex-direction: column;
+}
+
+.footerText {
+    color: white;
+    margin: 70px auto;
+}
