@@ -7,10 +7,6 @@ h1 {
     margin: auto 24px;
 }
 
-.flex {
-    display: flex;
-}
-
 header {
     
     background-color: #F5F5F5;
@@ -24,6 +20,15 @@ main {
     background-color: lightblue;
 }
 
+h2 {
+    margin-left: auto;
+    font-size: 36px;
+}
+
+.flex {
+    display: flex;
+}
+
 .logo {
     margin-left: 28px;
     margin-top: 18px;
@@ -35,6 +40,8 @@ main {
     margin: auto;
     margin-right: 180px;
     text-decoration: none;
+    color: #4C5CED;
+    font-size: 30px;
 }
 
 .content {
@@ -46,17 +53,22 @@ main {
 
 .contetnWhite {
     background-color: #F5F5F5;
-    padding: 100px 80px;
 }
 
 .registrationInput {
+    background-color: #F5F5F5;
     width: 414px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    padding-bottom: 16px;
+    margin-bottom: 16px;
+    border-bottom: 1px solid #999999;
 }
 
 .contentBlue {
     color: white;
     background-color: #4C5CED;
-    padding: 250px 160px;
 }
 
 .loginText {
@@ -69,5 +81,44 @@ main {
 
 .footerText {
     color: white;
+    margin: 70px auto;
+}
+
+.squares {
+    display: block;
+    position: relative;
+    bottom: 0;
+    left: 0;
+}
+
+.loginReadress {
+    margin: 260px 150px;
+}
+
+.loginForm {
+    margin: 70px 100px;
+}
+
+.email {
+    margin-bottom: 114px;
+}
+
+.submitBtn {
+    font-size: 24px;
+    background-color: #4C5CED;
+    padding: 20px 64px;
+    margin: 44px auto;
+    border: none;
+    border-radius: 78px;
+    color: white;
+}
+
+.loginBtn {
+    background: none;
+    color: white;
+    border: 2px solid white;
+    border-radius: 78px;
+    font-size: 24px;
+    padding: 20px 74px;
     margin: 70px auto;
 }
