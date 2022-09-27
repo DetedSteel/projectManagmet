@@ -73,6 +73,7 @@ h2 {
 
 .loginText {
     font-size: 30px;
+    margin: 0;
 }
 
 .column {
@@ -93,6 +94,7 @@ h2 {
 
 .loginReadress {
     margin: 260px 150px;
+    margin-bottom: 87px;
 }
 
 .loginForm {
